@@ -1,0 +1,30 @@
+/* Overpass:300;600& Ubuntu:@400;500;700 */
+
+.font-button{
+    font: 700 18px/1.4 'Ubuntu', sans-serif;
+}
+
+.font-0{
+    font: 300 1rem/1.4 'Overpass', sans-serif;
+}
+
+.font-1{
+    font: 500 18px/1.4 'Ubuntu', sans-serif;
+}
+
+.font-2{
+    font: 500 20px/1.4 'Overpass', sans-serif;
+}
+
+.font-3{
+    font: 600 24px/1.4 'Overpassa', sans-serif;
+}
+
+.font-4{
+    font: 600 40px/1.4 'Overpassa', sans-serif;
+}
+
+
+.font-5{
+    font: 600 60px/1.4 'Overpass', sans-serif;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+button{
+    display: block;
+}
+
+.container{
+    max-width: 1400px;
+    padding: 0 40px;
+}
