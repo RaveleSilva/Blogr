@@ -1,8 +1,155 @@
-body{
+header{
+    background: url(/images/bg-pattern-intro-desktop.svg), linear-gradient(to right, #FF8D70, #FF4258);
+    background-position: 25% 52%;
+    background-repeat: no-repeat;
+    padding-bottom: 140px;
+    border-radius: 0px 0px 0px 100px;
+}
+
+.header-container,
+.header-nav,
+.links-header-nav,
+.header-login-register{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 68px 40px;
+}
+
+.header-logo{
+    min-width: 120px;
+    margin-right: 60px;
+}
+
+.header-nav{
+    justify-content: space-between;
+    width: 100%;
+}
+
+.links-header-nav > li{
+    position: relative;
+}
+
+.links-header-nav > li > a{
+    padding: 10px;
+}
+
+.links-header-nav > li > a::after{
+    content: url(/images/icon-arrow-light.svg);
+    margin-left: 12px;
+    position: absolute;
+    transition: 0.4s;
+}
+
+.links-header-nav > li:hover > a{
+    text-decoration: 2px underline;
+}
+
+.links-header-nav > li:hover > a::after{
+    rotate: -180deg;
+}
+
+
+
+.dropdown-list{
+    position: absolute;
+    top: 52px;
+    left: -10px;
+    background-color: var(--c-1);
+    padding: 0px 24px;
+    padding-right: 52px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-shadow:
+    20px 20px 30px rgba(0, 0, 0, 0.065),
+    -20px 20px 30px rgba(0, 0, 0, 0.065),
+    20px -20px 30px rgba(0, 0, 0, 0.065),
+    -20px -20px 30px rgba(0, 0, 0, 0.065);
+    visibility: hidden;
+    overflow: hidden;
+    height: 0px;
+    transition: 0.4s;
+}
+
+.links-header-nav > li:hover .dropdown-list{
+    visibility: visible;
+    height: auto;
+    padding: 32px 52px 32px 24px;
+}
+
+.dropdown-list a{
+    padding: 4px;
+}
+
+.dropdown-list a:hover{
+    color: var(--c-4);
+    font-weight: bold;
+    padding: 1.5px;
+}
+
+.header-login-register > li:nth-child(2)> a{
+    background-color: var(--c-1);
+    padding: 16px 44px;
+    border-radius: 40px;
+    transition: 0.4s;
+}
+
+.header-login-register > li:nth-child(2)> a:hover{
+    background-color: var(--cor-p2);
+    color: var(--c-1);
+    cursor: pointer;
+}
+
+.header-text{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding-top: 100px;
-    gap: 40px;
+    padding-top: 40px;
 }
+
+.header-text h1{
+    margin-bottom: 20px;
+}
+
+.header-text p{
+    margin-bottom: 40px;
+}
+
+.header-text-buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.header-text-buttons button{
+    padding: 12px 16px;
+    border-radius: 40px;
+    background-color: var(--c-1);
+    cursor: pointer;
+    border: none;
+    transition: 0.4s;
+}
+
+.header-text-buttons button:hover{
+    background-color: var(--cor-p2);
+    color: var(--c-1);
+}
+
+.header-text-buttons button:nth-child(2){
+    background-color: transparent;
+    padding: 12px 24px;
+    border: 1px solid var(--c-1);
+}
+
+.header-text-buttons button:nth-child(2):hover{
+    background-color: var(--c-1);
+    color: var(--cor-p2);
+}
+
+

@@ -12,6 +12,19 @@
     --bg-2: hsl(237, 23%, 32%);
 }
 
+.c-p1{
+    color: var(--cor-p1);
+}
+
+.c-p2{
+    color: var(--cor-p2);
+}
+
+.c-p3{
+    color: var(--cor-p3);
+}
+
+
 .c-1{
     color: var(--c-1);
 }
