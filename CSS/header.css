@@ -213,8 +213,9 @@ header{
         padding: 34px 20px;
     }
 
-    .header-logo{
+    .header-logo img{
         margin: 0;
+        width: 100px;
     }
 
     .menu-mobile{

@@ -9,16 +9,17 @@
 }
 
 .font-0{
-    font: 300 1rem/1.4 'Overpass', sans-serif;
+    font: 300 1rem/1.5 'Overpass', sans-serif;
 }
 
 .font-1-n,
 .font-1{
-    font: 400 18px/1.4 'Ubuntu', sans-serif;
+    font: 400 18px/1.5 'Overpasss', sans-serif;
 }
 
 .font-1{
     font-weight: 500;
+    font-family: 'Ubuntu';
 }
 
 .font-2{
@@ -26,11 +27,11 @@
 }
 
 .font-3{
-    font: 600 24px/1.4 'Overpass', sans-serif;
+    font: 600 28px/1.4 'Overpass', sans-serif;
 }
 
 .font-4{
-    font: 600 40px/1.4 'Overpass', sans-serif;
+    font: 600 36px/1.4 'Overpass', sans-serif;
 }
 
 
@@ -40,6 +41,10 @@
 
 @media (max-width: 600px){
     .font-5{
+        font-size: 30px;
+    }
+
+    .font-4{
         font-size: 30px;
     }
 
