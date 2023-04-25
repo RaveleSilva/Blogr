@@ -4,7 +4,7 @@
     padding: 0 20px;
     display: flex;
     gap: 40px;
-    background: url(/images/bg-pattern-circles.svg), linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    background: url(../images/bg-pattern-circles.svg), linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
     background-repeat: no-repeat;
     background-position: -80% 120%;
     justify-content: center;
