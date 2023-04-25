@@ -41,3 +41,9 @@
         width: 400px;
     }
 }
+
+@media (max-width: 600px){
+    .phones-container img{
+        width: 360px;
+    }
+}
