@@ -204,6 +204,9 @@ header{
 
     header{
         padding-bottom: 100px;
+        background: url(../images/bg-pattern-intro-mobile.svg),linear-gradient(to bottom, #FF8D70, #FF4258);
+        background-position: 35% 38.5%;
+        background-repeat: no-repeat;
     }
 
     .header-container{
